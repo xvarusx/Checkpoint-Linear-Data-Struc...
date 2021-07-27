@@ -8,7 +8,7 @@ function sumArr(arrA, arrB) {
         for (var j = 0; j < arrB.length; j++) {
             if (arrB[j] === arrA[i]) {
                 equal = true;
-                CommonElement+=arrB[j]+'';
+                CommonElement+=arrB[j]+' ';
                 break;
             }
         }
